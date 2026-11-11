@@ -4,27 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Restfit: AI Fitness Coach &amp; Home Workout Plan That Adapts to Your Sleep</title>
-<meta name="description" content="Restfit is an AI fitness coach for Android that plans no-equipment home workouts around your sleep, soreness and busy days, with real rest days built in. Free, no ads.">
+<meta name="description" content="Restfit is an AI fitness coach for Android that plans no-equipment home workouts around your sleep, soreness and busy days, with real rest days built in. Free, no ads, no account.">
 <link rel="canonical" href="https://ahaariyan.github.io/RestFit--Landing-Page/">
-<meta name="theme-color" content="#FFF6EC" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#140F22" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FF5A36">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Restfit">
-<meta property="og:title" content="Restfit: the fitness coach that also tells you to rest">
-<meta property="og:description" content="Home workouts that adapt every morning to how you slept and how you feel. No equipment, real rest days, no ads.">
+<meta property="og:title" content="Restfit: Train smart. Rest well.">
+<meta property="og:description" content="The AI fitness coach that plans your home workouts around your sleep. No equipment, real rest days, no ads.">
 <meta property="og:url" content="https://ahaariyan.github.io/RestFit--Landing-Page/">
 <meta property="og:image" content="https://ahaariyan.github.io/RestFit--Landing-Page/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Restfit logo with the line: the fitness coach that also tells you to rest">
+<meta property="og:image:alt" content="Restfit logo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Restfit: the fitness coach that also tells you to rest">
-<meta name="twitter:description" content="Home workouts that adapt every morning to how you slept and how you feel. No equipment, real rest days, no ads.">
+<meta name="twitter:title" content="Restfit: Train smart. Rest well.">
+<meta name="twitter:description" content="The AI fitness coach that plans your home workouts around your sleep. No equipment, real rest days, no ads.">
 <meta name="twitter:image" content="https://ahaariyan.github.io/RestFit--Landing-Page/assets/og.png">
 <link rel="preload" href="assets/fonts/bricolage.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/jakarta.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Restfit: AI Fitness Coach","operatingSystem":"Android",
@@ -33,238 +33,425 @@
  "installUrl":"https://play.google.com/store/apps/details?id=com.matrabhed.steady",
  "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Do I need any equipment?","acceptedAnswer":{"@type":"Answer","text":"No. Every workout uses your body weight: squats, push-ups, glute bridges, lunges, planks, wall sits and mobility. A bit of floor and a wall is enough."}},
+ {"@type":"Question","name":"How does Restfit adapt to my sleep?","acceptedAnswer":{"@type":"Answer","text":"Each morning you answer a quick check-in: when you went to bed, when you woke and how you feel. Under 6 hours of sleep or feeling a bit tired makes today an easy day, sore legs keep leg work out, and unwell makes it a rest day."}},
+ {"@type":"Question","name":"Is it good for beginners?","acceptedAnswer":{"@type":"Answer","text":"Yes. Restfit starts easy and adds one rep or one set at a time, only after sessions that felt right."}},
+ {"@type":"Question","name":"Does the camera record me?","acceptedAnswer":{"@type":"Answer","text":"No. The optional camera rep counter uses a pose model that runs on your phone. Frames are processed and dropped at once, never saved or uploaded. You can tap to count instead."}},
+ {"@type":"Question","name":"Is the coach a chatbot?","acceptedAnswer":{"@type":"Answer","text":"The coach answers from Restfit's coaching rules, on your phone and without internet. The AI in Restfit is the on-device pose model and the plan that adapts to you every morning."}},
+ {"@type":"Question","name":"Do I need an account?","acceptedAnswer":{"@type":"Answer","text":"No. There is no sign-in. Your plan, check-ins and workouts stay on your phone."}},
+ {"@type":"Question","name":"Is Restfit free?","acceptedAnswer":{"@type":"Answer","text":"Yes, with no ads: 3 workouts a week, the camera for 3 moves and 3 coach questions a week. Pro adds a daily adaptive plan, the camera for every move, your full history and home-screen widgets, with a 7-day free trial."}}
+]}
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="chev" viewBox="0 0 120 120"><g fill="none" stroke="currentColor" stroke-width="10.3" stroke-linecap="round" stroke-linejoin="round"><path d="M35.2 89.8 60 68.7l24.8 21.1" opacity=".4"/><path d="M35.2 70.6 60 49.5l24.8 21.1" opacity=".67"/><path d="M35.2 51.4 60 30.3l24.8 21.1"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="currentColor"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="3" fill="currentColor"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+    <symbol id="i-wifi-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 3l18 18M8.5 16.2a5 5 0 0 1 7 0M5 12.6a10 10 0 0 1 4.2-2.4M19 12.6a10 10 0 0 0-3.4-2.2M2 9a15 15 0 0 1 4-2.6M22 9a15 15 0 0 0-9.6-3.9"/></g><circle cx="12" cy="19.5" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 17l5-5 4 3 7-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M6 14l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
 <header class="top">
-  <div class="wrap top-in">
-    <a class="brand" href="./" aria-label="Restfit home">
-      <picture>
-        <source srcset="assets/logo-dark.svg" media="(prefers-color-scheme: dark)">
-        <img src="assets/logo.svg" alt="Restfit" width="140" height="31">
-      </picture>
-    </a>
-    <a class="btn btn-sm" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady">Get the app</a>
-  </div>
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="#main" aria-label="Restfit home"><img src="assets/logo.svg" alt="Restfit" width="140" height="31"></a>
+    <ul class="nav-links">
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a class="btn btn-ink btn-sm" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady">Get the app</a>
+  </nav>
 </header>
 
 <main id="main">
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap hero-in">
-      <div class="hero-copy">
-        <p class="eyebrow">AI fitness coach for Android</p>
-        <h1>The fitness coach that also tells you <span class="hl">to rest.</span></h1>
-        <p class="lead">Restfit plans your home workouts around your real life: how you slept, what feels sore and how busy your day is. No equipment, no gym, and real rest days built in.</p>
-        <div class="cta">
-          <a class="play-badge" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="188" height="56"></a>
-          <p class="cta-note">Free, with no ads. Pro starts with a 7-day free trial.</p>
-        </div>
-      </div>
 
-      <div class="hero-art" aria-hidden="true">
-        <span class="blob b1"></span><span class="blob b2"></span>
-        <div class="phone">
-          <div class="screen">
-            <p class="ph-eyebrow">Tuesday</p>
-            <p class="ph-title">Good morning</p>
-            <div class="ph-banner">
-              <span class="ph-ic"><svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5Z" fill="currentColor"/></svg></span>
-              <span><b>Slept under 6 hours</b><small>Today becomes an easy day</small></span>
-            </div>
-            <div class="ph-hero">
-              <span class="ph-tag">Today</span>
-              <span class="ph-big">Easy day</span>
-              <span class="ph-sub">A lighter session today</span>
-              <svg class="ph-wave" viewBox="0 0 200 60" preserveAspectRatio="none"><path d="M0 44 C30 44 40 14 70 14 C100 14 110 40 140 40 C165 40 175 30 200 30" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/></svg>
-            </div>
-            <div class="ph-week">
-              <span class="d hard">M</span><span class="d easy now">T</span><span class="d rest">W</span><span class="d hard">T</span><span class="d easy">F</span><span class="d rest">S</span><span class="d">S</span>
-            </div>
-            <div class="ph-legend"><i class="k hard"></i>Hard <i class="k easy"></i>Easy <i class="k rest"></i>Rest</div>
-          </div>
-        </div>
+<!-- HERO -->
+<section class="hero band-coral">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="pill pill-ink"><svg aria-hidden="true"><use href="#i-moon"/></svg>AI fitness coach for Android</p>
+      <h1>Train smart.<br><span class="ink">Rest well.</span></h1>
+      <p class="lead">The AI fitness coach that plans your home workouts around your sleep. No gym, no equipment, and real rest days built in.</p>
+      <div class="cta-row">
+        <a class="play-badge" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="188" height="56"></a>
+        <p class="cta-note">Free, with no ads.<br>Pro starts with a 7-day free trial.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- ADAPTS -->
-  <section class="sec" id="plan" aria-labelledby="plan-h">
-    <div class="wrap">
-      <p class="eyebrow">Every morning</p>
-      <h2 id="plan-h">A plan that adapts every morning</h2>
-      <p class="sub">Answer a quick check-in: when you slept, when you woke, how you feel. Your coach sets today as a hard day, an easy day or a rest day.</p>
-      <div class="days">
-        <article class="day d-hard">
-          <svg viewBox="0 0 64 40" aria-hidden="true"><rect x="4" y="22" width="12" height="16" rx="6"/><rect x="26" y="12" width="12" height="26" rx="6"/><rect x="48" y="2" width="12" height="36" rx="6"/></svg>
-          <h3>Hard day</h3><p>A full session from your weekly plan.</p>
-        </article>
-        <article class="day d-easy">
-          <svg viewBox="0 0 64 40" aria-hidden="true"><path d="M4 26 C14 26 18 12 30 12 C42 12 46 28 60 28" fill="none" stroke-width="8" stroke-linecap="round"/></svg>
-          <h3>Easy day</h3><p>Short night or feeling tired: today becomes easy.</p>
-        </article>
-        <article class="day d-rest">
-          <svg viewBox="0 0 64 40" aria-hidden="true"><path d="M6 30 H58" stroke-width="8" stroke-linecap="round"/><circle cx="32" cy="14" r="8"/></svg>
-          <h3>Rest day</h3><p>Unwell: rest. A rest day never turns into a hard workout.</p>
-        </article>
-      </div>
-      <ul class="rules">
-        <li><b>Slept under 6 hours or feeling tired</b><span>today becomes easy</span></li>
-        <li><b>Sore legs</b><span>no leg loading today</span></li>
-        <li><b>Unwell</b><span>rest</span></li>
-        <li><b>Busy week, travelling or ill</b><span>adjust your plan in one tap</span></li>
+      <ul class="ticks" aria-label="Highlights">
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>No equipment</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>No account</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>No ads</li>
       </ul>
     </div>
-  </section>
 
-  <!-- HOME WORKOUTS -->
-  <section class="sec tint" id="workouts" aria-labelledby="work-h">
-    <div class="wrap split">
-      <div>
-        <p class="eyebrow">No gym needed</p>
-        <h2 id="work-h">Home workouts, no equipment</h2>
-        <p>A weekly home workout plan for beginners and up. Every move has a slow-motion 3D guide you can turn, and a voice coach counts you through.</p>
-      </div>
-      <ul class="chips" aria-label="Moves in Restfit">
-        <li>Squats</li><li>Push-ups</li><li>Glute bridges</li><li>Lunges</li><li>Sit-ups</li><li>Planks</li><li>Wall sits</li><li>Mobility</li><li class="more">and more</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- PROGRESS -->
-  <section class="sec" id="progress" aria-labelledby="prog-h">
-    <div class="wrap">
-      <p class="eyebrow">Kind progress</p>
-      <h2 id="prog-h">Progress that respects your body</h2>
-      <div class="cards4">
-        <article class="card c-lilac"><span class="num">2</span><h3>Rest days, every week</h3><p>At least 2 fixed rest days. A rest day never turns into a hard workout.</p></article>
-        <article class="card c-mint"><span class="num">+1</span><h3>Slow, earned steps</h3><p>One more rep or one more set, only after sessions that felt right.</p></article>
-        <article class="card c-sky"><span class="glyph" aria-hidden="true"><svg viewBox="0 0 56 56"><circle cx="9" cy="38" r="6"/><circle cx="47" cy="38" r="6"/><path d="M14 28 C20 12 36 12 42 26" stroke-width="4.5" stroke-linecap="round"/><path d="M34 24 l8 3 l2-8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>No streaks to break</h3><p>A missed day simply moves. No guilt.</p></article>
-        <article class="card c-sun"><span class="num">3</span><h3>&ldquo;Something hurts&rdquo;</h3><p>Ends the session and keeps that area out of your plan for 3 days.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CAMERA -->
-  <section class="sec dark" id="camera" aria-labelledby="cam-h">
-    <div class="wrap split">
-      <div class="cam-art" aria-hidden="true">
-        <div class="phone phone-dark">
-          <div class="screen cam">
-            <span class="beta">Beta</span>
-            <div class="rings"><span></span><span></span><span></span></div>
-            <span class="rep">8</span>
-            <span class="rep-label">clean reps</span>
-            <div class="cam-chips"><span>On your phone</span><span>Never stored</span></div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="phone phone-back">
+        <div class="screen">
+          <div class="sb"><span>7:42</span><i></i></div>
+          <div class="ui-card ui-sun">
+            <div class="ui-row"><span class="dot-ic ink"><svg><use href="#i-sun"/></svg></span><small>Woke up</small></div>
+            <b class="ui-big">6:00 AM</b>
           </div>
+          <div class="ui-card">
+            <small class="mut">Sleep</small><b class="ui-mid">5h 30m</b>
+            <div class="bar"><i style="width:62%"></i></div>
+            <small class="mut tiny">Later than your usual 10:30 PM</small>
+          </div>
+          <p class="ui-h">How does your body feel?</p>
+          <div class="feel"><span>Fresh</span><span class="on">A bit tired</span><span>Sore legs</span><span>Unwell</span></div>
         </div>
       </div>
-      <div>
-        <p class="eyebrow">Camera rep counter <span class="pill">Beta</span></p>
-        <h2 id="cam-h">Prop your phone up. It counts clean reps.</h2>
-        <p>The camera counts reps for squats, push-ups, glute bridges and more, using a pose model that runs on your phone. Frames are never stored or uploaded.</p>
-        <p class="muted">Prefer not to use the camera? Tap to count instead.</p>
+      <div class="phone phone-front">
+        <div class="screen">
+          <div class="sb"><span>9:41</span><i></i></div>
+          <small class="mut">Friday 13 November</small>
+          <p class="ui-title">Good morning</p>
+          <div class="week"><span class="d s">9</span><span class="d">10</span><span class="d s">11</span><span class="d">12</span><span class="d now">13</span><span class="d c">14</span><span class="d">15</span></div>
+          <div class="ui-hero sky">
+            <span class="tag tag-blue">Easy day</span>
+            <b class="ui-huge">9<small>min</small></b>
+            <small>5 moves. Lighter today.</small>
+            <i class="orb"></i>
+          </div>
+          <div class="ui-btn"><svg><use href="#i-play"/></svg>Start workout</div>
+          <p class="ui-h">Today's moves</p>
+          <div class="ui-list">
+            <div><span class="sq"></span><b>Squat</b><em>2 × 10</em></div>
+            <div><span class="sq"></span><b>Push-up</b><em>2 × 8</em></div>
+          </div>
+          <div class="tabbar"><span class="on"><i></i>Coach</span><span><i></i>Eat</span><span><i></i>Progress</span><span><i></i>Profile</span></div>
+        </div>
       </div>
+      <div class="chip chip-a"><span class="dot-ic violet"><svg><use href="#i-moon"/></svg></span><span><b>5h 30m of sleep</b><small>Today becomes an easy day</small></span></div>
+      <div class="chip chip-b"><span class="dot-ic coral"><svg><use href="#i-up"/></svg></span><span><b>+1 rep at a time</b><small>Only after sessions that felt right</small></span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- COACH + CALM -->
-  <section class="sec" id="calm" aria-labelledby="calm-h">
-    <div class="wrap">
-      <p class="eyebrow">Calm by design</p>
-      <h2 id="calm-h">Quiet, private, and on your side</h2>
-      <div class="calm-grid">
-        <article class="card c-violet wide">
-          <h3>Ask the coach</h3>
-          <p>Chat with your coach about sleep, soreness, a busy week or a session that felt too hard. Answers come from Restfit's coaching rules, run on your phone with no internet, and nothing changes until you confirm.</p>
-        </article>
-        <article class="card c-plain">
-          <h3>Your data stays on your phone</h3>
-          <p>Your plan, check-ins and workouts are stored only on your phone. No account, no sign-in, no ads. Anonymous usage stats can be turned off in the app.</p>
-        </article>
-        <article class="card c-plain">
-          <h3>Goals that aren't about weight</h3>
-          <p>Strength, stamina, sleep regularity and rest kept, never a weight headline. No body photos, no leaderboards, no music: just voice cues and short tones.</p>
-        </article>
-        <article class="card c-plain">
-          <h3>Gentle daily rhythm</h3>
-          <p>A morning check-in, a wind-down reminder at night, and home-screen widgets.</p>
-        </article>
-        <article class="card c-plain">
-          <h3>Eat mindfully, no calorie counting</h3>
-          <p>A simple plate check and a fullness scale help you notice how you eat. No calories, no food photos.</p>
-        </article>
-      </div>
+<!-- HOW IT WORKS -->
+<section id="how" class="band-cream">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="pill pill-coral">How it works</p>
+      <h2>A quick check-in each morning.<br>A plan that fits <span class="coral">your</span> day.</h2>
     </div>
-  </section>
+    <ol class="steps">
+      <li class="step reveal"><span class="num">1</span><h3>Check in</h3><p>When did you sleep, when did you wake, how does your body feel? That's it.</p></li>
+      <li class="step reveal"><span class="num">2</span><h3>Your plan adapts</h3><p>Today becomes a hard day, an easy day or a rest day. Slept badly? Easy. Unwell? Rest.</p></li>
+      <li class="step reveal"><span class="num">3</span><h3>Train at home</h3><p>Short, guided sessions on your floor. A voice coach counts you through every set.</p></li>
+    </ol>
+    <div class="rules reveal">
+      <div><b>Slept under 6 hours or a bit tired</b><span>today becomes easy</span></div>
+      <div><b>Sore legs</b><span>no leg loading today</span></div>
+      <div><b>Unwell</b><span>rest</span></div>
+      <div><b>Busy week, travelling or ill</b><span>adjust your plan in one tap</span></div>
+    </div>
+  </div>
+</section>
 
-  <!-- PRICING -->
-  <section class="sec tint" id="pricing" aria-labelledby="price-h">
-    <div class="wrap">
-      <p class="eyebrow">Free and Pro</p>
-      <h2 id="price-h">Start free. Go Pro when it helps.</h2>
-      <div class="plans">
-        <article class="plan">
-          <h3>Free</h3>
-          <p class="plan-sub">No ads.</p>
-          <ul class="ticks">
-            <li>3 workouts a week</li>
-            <li>Camera rep counter for 3 moves</li>
-            <li>3 coach questions a week</li>
-          </ul>
-        </article>
-        <article class="plan pro">
-          <h3>Pro</h3>
-          <p class="plan-sub">7-day free trial</p>
-          <ul class="ticks">
-            <li>A daily adaptive plan</li>
-            <li>The camera for every move</li>
-            <li>Your full history</li>
-            <li>Home-screen widgets</li>
-          </ul>
-          <p class="fine">We remind you 2 days before any charge, and your renewal date is always visible.</p>
-        </article>
+<div id="features"></div>
+
+<!-- REST -->
+<section class="feature band-violet">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap feat-grid">
+    <div class="feat-copy reveal">
+      <p class="pill pill-sun">Rest days</p>
+      <h2><span class="sun">Rest</span> is part of the plan</h2>
+      <p class="lead">At least two rest days every week, fixed. A rest day never turns into a hard workout, and a missed day simply moves. No streaks to break.</p>
+    </div>
+    <div class="feat-art reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen">
+          <div class="sb"><span>7:32</span><i></i></div>
+          <small class="mut">Wednesday 11 November</small>
+          <p class="ui-title">Good morning</p>
+          <div class="week"><span class="d c">9</span><span class="d">10</span><span class="d now">11</span><span class="d">12</span><span class="d c">13</span><span class="d c">14</span><span class="d">15</span></div>
+          <div class="ui-hero lilac">
+            <span class="tag tag-violet">Rest day</span>
+            <b class="ui-huge">Rest</b>
+            <small>Muscles grow while you rest.</small>
+            <i class="orb"></i>
+          </div>
+          <p class="ui-h">Today, if you like</p>
+          <div class="ui-list">
+            <div><span class="sq sky"></span><b>A calm 20-minute walk</b></div>
+            <div><span class="sq"></span><b>5 minutes of stretching</b></div>
+            <div><span class="sq lilac"></span><b>Bed by 10:30 PM</b></div>
+          </div>
+          <div class="tabbar"><span class="on"><i></i>Coach</span><span><i></i>Eat</span><span><i></i>Progress</span><span><i></i>Profile</span></div>
+        </div>
       </div>
-      <div class="cta center">
-        <a class="play-badge" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="188" height="56" loading="lazy"></a>
+      <div class="chip chip-r"><span class="dot-ic sun"><svg><use href="#i-moon"/></svg></span><span><b>Bed by 10:30 PM</b><small>Sleep is where the work pays off</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- COACH -->
+<section class="feature band-sky">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap feat-grid flip">
+    <div class="feat-copy reveal">
+      <p class="pill pill-ink">Ask the coach</p>
+      <h2>Busy, sore or tired?<br><span class="blue">Ask your coach.</span></h2>
+      <p class="lead">Instant answers from your plan, right on your phone. It works offline, and nothing in your plan changes until you confirm.</p>
+    </div>
+    <div class="feat-art reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen">
+          <div class="sb"><span>9:44</span><i></i></div>
+          <div class="chat-head"><span class="dot-ic ink"><svg><use href="#i-sun"/></svg></span><span><b>Ask the coach</b><small class="mut">Answers from your plan's rules, on your phone</small></span></div>
+          <div class="msg me">What's my plan today?</div>
+          <div class="msg">Today: easy, 9 minutes. A bit tired? Today is an easy day. Short and gentle.</div>
+          <div class="msg me">I slept badly last night</div>
+          <div class="msg">Sleep sets the day here: under 6 hours, "a bit tired" or sore legs makes today easy. Want to redo today's check-in so the plan can adjust?</div>
+          <div class="quick"><span>Redo my check-in</span></div>
+          <div class="quick row"><span>My knee hurts</span><span>I'm busy today</span></div>
+          <div class="ask">Ask anything about your plan…<i></i></div>
+        </div>
+      </div>
+      <div class="chip chip-c"><span class="dot-ic blue"><svg><use href="#i-wifi-off"/></svg></span><span><b>Works offline</b><small>Runs on your phone</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GUIDED SETS -->
+<section class="feature band-ink">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap feat-grid">
+    <div class="feat-copy reveal">
+      <p class="pill pill-coral">Guided sets</p>
+      <h2>Every <span class="coral">clean rep</span> counts</h2>
+      <p class="lead">Voice cues guide each set. Tap to count, or prop your phone up and let the camera count clean reps (beta).</p>
+      <ul class="moves" aria-label="Moves in Restfit">
+        <li>Squats</li><li>Push-ups</li><li>Glute bridges</li><li>Lunges</li><li>Planks</li><li>Wall sits</li><li>Mobility</li>
+      </ul>
+    </div>
+    <div class="feat-art reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen live">
+          <div class="sb"><span>7:36</span><i></i></div>
+          <div class="live-top"><b>Squat</b><small>Set 1 of 3 · move 1 of 5</small></div>
+          <div class="live-bar"><i></i></div>
+          <div class="live-ring"><b>9</b><small>of 14 reps</small></div>
+          <div class="cue">Sit back, chest up</div>
+        </div>
+      </div>
+      <div class="chip chip-g"><span class="dot-ic coral"><svg><use href="#i-lock"/></svg></span><span><b>Private camera</b><small>Frames never leave your phone</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESS -->
+<section class="feature band-mint">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap feat-grid flip">
+    <div class="feat-copy reveal">
+      <p class="pill pill-ink">Progress</p>
+      <h2>Progress you can <span class="green">feel</span></h2>
+      <p class="lead">Strength, stamina, sleep regularity and rest days kept. Compared only with your own past: no weight headline, no leaderboards.</p>
+    </div>
+    <div class="feat-art reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen">
+          <div class="sb"><span>7:44</span><i></i></div>
+          <small class="mut">Compared only with your own past</small>
+          <p class="ui-title sm">You, 3 weeks ago → now</p>
+          <div class="tiles">
+            <div class="tile mint"><small>Workouts</small><b>17<em>done</em></b></div>
+            <div class="tile"><small>Rest days kept</small><b>6<em>/ 6</em></b></div>
+          </div>
+          <div class="ui-card trend"><span><small class="mut">Clean glute bridges</small><b>13 → 16</b></span><svg viewBox="0 0 100 30"><path d="M2 26 L22 20 L42 8 L62 8 L78 20 L98 4" fill="none" stroke="#FF5A36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="ui-card trend"><span><small class="mut">Plank hold</small><b>35s → 50s</b></span><svg viewBox="0 0 100 30"><path d="M2 26 L30 26 L50 14 L70 14 L98 4" fill="none" stroke="#FF5A36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="ui-card trend"><span><small class="mut">Clean push-ups</small><b>9 → 12</b></span><svg viewBox="0 0 100 30"><path d="M2 24 L26 18 L48 22 L70 10 L98 4" fill="none" stroke="#FF5A36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="tabbar"><span><i></i>Coach</span><span><i></i>Eat</span><span class="on"><i></i>Progress</span><span><i></i>Profile</span></div>
+        </div>
+      </div>
+      <div class="chip chip-p"><span class="dot-ic green"><svg><use href="#i-chart"/></svg></span><span><b>Only you vs. you</b><small>No leaderboards, ever</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- WIDGETS -->
+<section class="feature band-sun">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap feat-grid">
+    <div class="feat-copy reveal">
+      <p class="pill pill-ink">Widgets</p>
+      <h2>Your plan on your <span class="coral">home screen</span></h2>
+      <p class="lead">Today, this week and tonight's bedtime at a glance, plus a gentle wind-down reminder at night. Widgets come with Pro.</p>
+    </div>
+    <div class="feat-art reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen home">
+          <div class="sb light"><span>9:41</span><i></i></div>
+          <div class="clock"><b>9:41</b><small>Wednesday, 11 November</small></div>
+          <div class="wgt-row">
+            <div class="wgt cream"><span class="tag tag-coral-soft">This week</span><b>3<em>/4</em></b><small>sessions done</small><div class="segs"><i></i><i></i><i></i><i class="off"></i></div></div>
+            <div class="wgt night"><span class="tag tag-violet">Tonight</span><b class="t">10:30 PM</b><small>bedtime</small></div>
+          </div>
+          <div class="wgt wcoral wide"><span class="tag tag-ink">Today</span><b class="t">Done for today</b><small>Nice work. Rest well tonight.</small></div>
+          <div class="dock"><i></i><i></i><i></i><i></i></div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- ALSO INSIDE -->
+<section class="band-white">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="pill pill-coral">Also inside</p>
+      <h2>Small things that <span class="coral">care</span></h2>
+    </div>
+    <div class="minis">
+      <div class="mini-card c-sun reveal"><b class="mini-num">3D</b><h3>Slow-motion guides</h3><p>Every move has a 3D guide you can turn, so you see the form from every side.</p></div>
+      <div class="mini-card c-lilac reveal"><b class="mini-num">3</b><h3>"Something hurts"</h3><p>Ends the session and keeps that area out of your plan for 3 days.</p></div>
+      <div class="mini-card c-mint reveal"><b class="mini-num">0</b><h3>Calories to count</h3><p>A simple plate check and a fullness scale help you eat mindfully. No food photos.</p></div>
+      <div class="mini-card c-sky reveal"><b class="mini-num">2</b><h3>Gentle reminders</h3><p>A morning check-in and a wind-down nudge at night.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY -->
+<section class="band-cream">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="pill pill-coral">Private by design</p>
+      <h2>Your body. Your data.<br><span class="coral">Your phone.</span></h2>
+    </div>
+    <div class="facts">
+      <div class="fact reveal"><span class="dot-ic coral big"><svg><use href="#i-lock"/></svg></span><h3>Stays on your phone</h3><p>Your plan, check-ins and workouts are stored on your phone. No account, no sign-in.</p></div>
+      <div class="fact reveal"><span class="dot-ic violet big"><svg><use href="#i-wifi-off"/></svg></span><h3>Coach works offline</h3><p>Your messages are answered on your phone with Restfit's coaching rules. They are never sent anywhere.</p></div>
+      <div class="fact reveal"><span class="dot-ic green big"><svg><use href="#i-check"/></svg></span><h3>No body photos</h3><p>The camera is optional, and frames are never saved or uploaded. Anonymous usage stats can be turned off in the app.</p></div>
+    </div>
+    <p class="center small-link reveal"><a href="https://ahaariyan.github.io/RestFit--AI-Fitness-Coach/">Read the privacy policy</a></p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="band-white">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="pill pill-coral">Free and Pro</p>
+      <h2>Start free. Go Pro when it helps.</h2>
+    </div>
+    <div class="plans">
+      <div class="plan reveal">
+        <h3>Free</h3>
+        <p class="plan-sub">No ads. No account.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>3 workouts a week</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Camera rep counter for 3 moves</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>3 coach questions a week</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Morning check-in and rest days</li>
+        </ul>
+      </div>
+      <div class="plan pro reveal">
+        <span class="badge">7-day free trial</span>
+        <h3>Pro</h3>
+        <p class="plan-sub">Everything in Free, plus:</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>A daily adaptive plan</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>The camera for every move</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Your full history</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Home-screen widgets</li>
+        </ul>
+        <p class="fine">We remind you 2 days before any charge. Cancel any time in Google Play.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="band-cream">
+  <div class="wrap narrow">
+    <div class="sec-head center reveal">
+      <p class="pill pill-coral">FAQ</p>
+      <h2>Questions, answered</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Do I need any equipment?</summary><p>No. Every workout uses your body weight: squats, push-ups, glute bridges, lunges, planks, wall sits and mobility. A bit of floor and a wall is enough.</p></details>
+      <details><summary>How does Restfit adapt to my sleep?</summary><p>Each morning you answer a quick check-in: when you went to bed, when you woke and how you feel. Under 6 hours of sleep or feeling a bit tired makes today an easy day, sore legs keep leg work out, and unwell makes it a rest day.</p></details>
+      <details><summary>Is it good for beginners?</summary><p>Yes. Restfit starts easy and adds one rep or one set at a time, only after sessions that felt right.</p></details>
+      <details><summary>Does the camera record me?</summary><p>No. The optional camera rep counter uses a pose model that runs on your phone. Frames are processed and dropped at once, never saved or uploaded. You can tap to count instead.</p></details>
+      <details><summary>Is the coach a chatbot?</summary><p>The coach answers from Restfit's coaching rules, on your phone and without internet. The "AI" in Restfit is the on-device pose model and the plan that adapts to you every morning.</p></details>
+      <details><summary>Do I need an account?</summary><p>No. There is no sign-in. Your plan, check-ins and workouts stay on your phone.</p></details>
+      <details><summary>Is Restfit free?</summary><p>Yes, with no ads: 3 workouts a week, the camera for 3 moves and 3 coach questions a week. Pro adds a daily adaptive plan, the camera for every move, your full history and home-screen widgets, with a 7-day free trial.</p></details>
+      <details><summary>Is this medical advice?</summary><p>No. Restfit is for general fitness and wellbeing. If pain is sharp or lasting, please see a doctor.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final band-coral">
+  <svg class="chev-mark" aria-hidden="true"><use href="#chev"/></svg>
+  <div class="wrap center reveal">
+    <img class="final-mark" src="assets/mark.svg" alt="" width="88" height="88" loading="lazy">
+    <h2>Train smart. <span class="ink">Rest well.</span></h2>
+    <p class="lead">No account needed. Your first plan is ready in minutes.</p>
+    <a class="play-badge" data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="188" height="56" loading="lazy"></a>
+  </div>
+</section>
+
 </main>
 
 <footer class="foot">
-  <div class="wrap foot-in">
+  <div class="wrap foot-grid">
     <div>
-      <img src="assets/mark.svg" alt="" width="40" height="40">
-      <p class="disclaimer">Restfit is for general fitness and wellbeing. It is not medical advice. If pain is sharp or lasting, see a doctor.</p>
+      <img src="assets/logo.svg" alt="Restfit" width="140" height="31" loading="lazy">
+      <p class="fine">Restfit is for general fitness and wellbeing. It is not medical advice. If pain is sharp or lasting, see a doctor.</p>
     </div>
-    <nav aria-label="Footer">
+    <nav class="foot-links" aria-label="Footer">
       <a href="https://ahaariyan.github.io/RestFit--AI-Fitness-Coach/">Privacy policy</a>
       <a href="mailto:abdulhady.aariyan@gmail.com">Contact</a>
       <a data-play href="https://play.google.com/store/apps/details?id=com.matrabhed.steady">Google Play</a>
     </nav>
-    <p class="copy">&copy; 2026 Restfit. Google Play and the Google Play logo are trademarks of Google LLC.</p>
   </div>
+  <p class="wrap fine legal">&copy; 2026 Restfit. Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </footer>
 
 <div class="sticky" aria-hidden="true">
-  <a class="btn" data-play tabindex="-1" href="https://play.google.com/store/apps/details?id=com.matrabhed.steady">Get Restfit on Google Play</a>
+  <a class="btn btn-ink" data-play tabindex="-1" href="https://play.google.com/store/apps/details?id=com.matrabhed.steady">Get Restfit on Google Play</a>
 </div>
 
 <script>
-// Pass the visit's utm_* tags on to Google Play, so Play Console shows which post sent the install.
 (function () {
+  // Pass the visit's utm_* tags on to Google Play, so Play Console shows which post sent the install.
   var q = new URLSearchParams(location.search), tags = [];
   q.forEach(function (v, k) { if (k.indexOf("utm_") === 0) tags.push(k + "=" + v); });
   if (!tags.length) tags = ["utm_source=website", "utm_medium=landing"];
   var ref = "&referrer=" + encodeURIComponent(tags.join("&"));
   document.querySelectorAll("a[data-play]").forEach(function (a) { a.href += ref; });
-  // Show the bottom bar on phones only once the main button has scrolled away.
-  var bar = document.querySelector(".sticky"), hero = document.querySelector(".hero .play-badge");
+
+  // Gentle reveal on scroll, skipped when the visitor prefers reduced motion.
+  var els = document.querySelectorAll(".reveal");
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+    document.documentElement.classList.add("js");
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -6% 0px" });
+    els.forEach(function (e) { io.observe(e); });
+  }
+
+  // Phones: show the bottom bar once the hero's button has scrolled away.
+  var bar = document.querySelector(".sticky"), badge = document.querySelector(".hero .play-badge");
   if ("IntersectionObserver" in window) new IntersectionObserver(function (e) {
     bar.classList.toggle("on", !e[0].isIntersecting && e[0].boundingClientRect.top < 0);
-  }).observe(hero);
+  }).observe(badge);
 })();
 </script>
 </body>
