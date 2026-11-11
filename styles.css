@@ -82,7 +82,7 @@ section { position: relative; padding: 84px 0; overflow: hidden; }
 
 /* hero */
 .hero { padding: 48px 0 72px; }
-.hero h1 { font-size: clamp(56px, 11vw, 112px); line-height: .92; letter-spacing: -.045em; color: #fff; margin-bottom: 22px; }
+.hero h1 { font-size: clamp(48px, 7.4vw, 92px); line-height: .94; max-width: 640px; letter-spacing: -.045em; color: #fff; margin-bottom: 22px; }
 .hero .lead { color: var(--ink); font-weight: 500; }
 .hero-grid { position: relative; display: grid; gap: 48px; align-items: center; }
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin-bottom: 26px; }
@@ -284,7 +284,7 @@ section { position: relative; padding: 84px 0; overflow: hidden; }
 .final { padding: 100px 0; }
 .final .wrap { position: relative; }
 .final-mark { width: 88px; height: 88px; margin: 0 auto 26px; border-radius: 24px; box-shadow: 0 20px 40px -18px rgba(29,21,48,.5); }
-.final h2 { color: #fff; font-size: clamp(44px, 8vw, 88px); letter-spacing: -.045em; }
+.final h2 { color: #fff; font-size: clamp(40px, 6.4vw, 76px); max-width: 900px; margin-left: auto; margin-right: auto; letter-spacing: -.045em; }
 .final .lead { margin: 0 auto 30px; color: var(--ink); font-weight: 600; }
 
 /* footer */
